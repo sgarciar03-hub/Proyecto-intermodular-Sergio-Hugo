@@ -1,0 +1,124 @@
+
+.checkin-wrapper {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.checkin-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkin-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.checkin-header h2 {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.checkin-header p {
+    color: #666666;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.checkin-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.checkin-input-group {
+    margin-bottom: 20px;
+}
+
+.checkin-input-group label {
+    display: block;
+    color: #444444;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.input-icon-wrapper {
+    align-items: center;
+    border: 2px solid #cccccc;
+    border-radius: 6px;
+    padding: 8px 12px;
+    background-color: #f9f9f9;
+}
+
+.input-icon-wrapper:focus-within {
+    border-color: #007bff;
+    background-color: #ffffff;
+}
+
+.input-icon-wrapper .icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.input-icon-wrapper input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 0;
+    outline: none;
+}
+
+.checkin-btn-submit {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.checkin-btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.checkin-info {
+    background-color: #e6f2ff;
+    border: 1px solid #b3d7ff;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.checkin-info strong {
+    color: #0056b3;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.checkin-info ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.checkin-info li {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 4px;
+}

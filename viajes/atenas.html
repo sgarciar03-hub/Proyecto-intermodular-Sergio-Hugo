@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Reserva Atenas Express | DiverJet</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/catalogo.css">
+</head>
+
+<body>
+    <div class="cima">
+        <h2>DiverJet</h2>
+        <div class="enlaces">
+            <a href="../index.html">Inicio</a>
+            <a href="../ofertas.html" class="activo">Catálogo</a>
+            <a href="../checkin.html">Check-in</a>
+            <a href="../consejos.html">Consejos</a>
+        </div>
+        <a href="../login.html" class="boton-azul boton-cuenta"><span aria-hidden="true">👤</span> Mi Cuenta</a>
+    </div>
+
+    <div class="reserva-viaje-contenedor">
+        <div class="reserva-imagen-box">
+            <img src="../fotos/Atenas.jpg" alt="Atenas Express">
+            <div class="reserva-destino-tit">
+                <h1>Atenas Express</h1>
+                <p>Vuelo directo. Precios especiales para fechas seleccionadas.</p>
+            </div>
+        </div>
+
+        <div class="reserva-form-box">
+            <h2>Configura tu Viaje</h2>
+            <form action="../perfil.html">
+                <div class="form-fila">
+                    <div>
+                        <label class="r-label">Ida (Fija)</label>
+                        <input type="date" class="r-input" value="2026-09-20" readonly>
+                    </div>
+                    <div>
+                        <label class="r-label">Vuelta (Fija)</label>
+                        <input type="date" class="r-input" value="2026-09-25" readonly>
+                    </div>
+                </div>
+
+                <div class="form-fila">
+                    <div>
+                        <label class="r-label">Adultos (+12)</label>
+                        <select class="r-select">
+                            <option value="1">1 Adulto</option>
+                            <option value="2" selected>2 Adultos</option>
+                            <option value="3">3 Adultos</option>
+                            <option value="4">4+ Adultos</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="r-label">Niños (0-11)</label>
+                        <select class="r-select">
+                            <option value="0">0 Niños</option>
+                            <option value="1">1 Niño</option>
+                            <option value="2">2 Niños</option>
+                        </select>
+                    </div>
+                </div>
+
+                <ul class="incluye-lista">
+                    <li>Equipaje de mano (mochila 40x20x25cm)</li>
+                    <li>Tasas e impuestos de aeropuerto incluidos</li>
+                    <li>Check-in online gratuito 24h antes</li>
+                </ul>
+
+                <div class="precio-total-box">
+                    <span class="precio-tit">Precio base total:</span>
+                    <span class="precio-val">85€</span>
+                </div>
+
+                <button type="submit" class="btn-reservar"><span aria-hidden="true">🛒</span> Añadir al Carrito</button>
+            </form>
+        </div>
+    </div>
+    <div class="pie-nuevo">
+        <div class="pie-nuevo-contenedor">
+            <div class="pie-nuevo-marca">
+                <span class="pie-nuevo-logo">DiverJet</span>
+                <p>© 2024 DiverJet. Mobility for the Next Generation.</p>
+            </div>
+            <div class="pie-nuevo-info">
+                <h3>Contacto</h3>
+                <p>Email: hola@diverjet.com</p>
+                <p>Soporte: ayuda@diverjet.com</p>
+                <p>Tel: +34 900 123 456</p>
+            </div>
+            <div class="pie-nuevo-enlaces">
+                <a href="#">Contacto</a>
+                <a href="#">Aviso Legal</a>
+                <a href="#">Privacidad</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
