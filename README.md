@@ -1,5 +1,5 @@
 # Proyecto-intermodular-Sergio-Hugo
-Página web con catálogo sin css sobre una agencia de viajes low-cost.
+Página web con catálogo html y css sobre una agencia de viajes low-cost (sin base de datos).
 <br><br>
 ***PROGRAMACIÓN DEL TRABAJO***<br><br>
 
